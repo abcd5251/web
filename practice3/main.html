@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang>
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="RedSky">
+    <title>Test</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="searchbar.js"></script>
+
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="item">
+                <a href"#">Home</a>
+            </li>
+            <li class="item">
+                    <a href"#" onclick="javascript:location.href='../coupon/coupon.html'" value="到coupon"> Coupon</a>
+            </li>
+            <li class="item">
+                <a href"#"  onclick="javascript:location.href='../register/register.html'" value="到Register"> Register </a>
+            </li>
+            <li class="item">
+                <a href"#" onclick="javascript:location.href='../login/login.html'" value="到login">Login</a>
+            </li>
+        </ul>
+    </nav>
+    <!--暫時搜尋欄-->
+  <div id="search">
+  <form id="search_form" action="multiple_query.php" method="GET" accept-charset="utf-8">
+    <!-- 輸入欄 -->
+    <input type="text" name="coupon_name" placeholder="Type to search"/>
+
+    <!-- 下拉選單 -->
+    <div id="search_box">
+      <select name="fieldLimit1" class="fieldLimitCht">
+        <option value="all" selected="selected">全部</option>
+        <option value="actual">實體</option>
+        <option value="electronics">電子</option>
+      </select>
+    </div>
+    <!-- 提交按鈕 -->
+    <input id="serach_submit" type="submit" name="submit" value="查詢"/>
+    <!-- 暫時用不到-->
+    <div class="search-btn" >
+        <img src="decoration/search.png">
+    </div>
+    <!-- -->
+
+  <h1>本月促銷排行榜</h1>
+  <div class="card middle number1">
+        <div class="front">
+          <img src="http://christinescakesandpastries.com/wp-content/uploads/2014/11/Coupon30.png" alt="">
+        </div>
+        <div class="back">
+          <div class="back-content middle">
+            <span>
+              全家
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="card middle number2">
+            <div class="front">
+              <img src="http://christinescakesandpastries.com/wp-content/uploads/2014/11/Coupon30.png" alt="">
+            </div>
+            <div class="back">
+              <div class="back-content middle">
+                <span>
+                  seven
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="card middle number3">
+                <div class="front">
+                  <img src="http://christinescakesandpastries.com/wp-content/uploads/2014/11/Coupon30.png" alt="">
+                </div>
+                <div class="back">
+                  <div class="back-content middle">
+                    <span>
+                        肯德基
+                    </span>
+                  </div>
+                </div>
+            </div>
+              <div class="card middle number4">
+                    <div class="front">
+                      <img src="http://christinescakesandpastries.com/wp-content/uploads/2014/11/Coupon30.png" alt="">
+                    </div>
+                    <div class="back">
+                      <div class="back-content middle">
+                        <span>
+                          麥當勞
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card middle number5">
+                        <div class="front">
+                          <img src="http://christinescakesandpastries.com/wp-content/uploads/2014/11/Coupon30.png" alt="">
+                        </div>
+                        <div class="back">
+                          <div class="back-content middle">
+                            <span>
+                              電腦
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card middle number6">
+                            <div class="front">
+                              <img src="http://christinescakesandpastries.com/wp-content/uploads/2014/11/Coupon30.png" alt="">
+                            </div>
+                            <div class="back">
+                              <div class="back-content middle">
+                                <span>
+                                    手機
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card middle number7">
+                                <div class="front">
+                                  <img src="http://christinescakesandpastries.com/wp-content/uploads/2014/11/Coupon30.png" alt="">
+                                </div>
+                                <div class="back">
+                                  <div class="back-content middle">
+                                    <span>
+                                      購物車
+                                    </span>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="card middle number8">
+                                    <div class="front">
+                                      <img src="http://christinescakesandpastries.com/wp-content/uploads/2014/11/Coupon30.png" alt="">
+                                    </div>
+                                    <div class="back">
+                                      <div class="back-content middle">
+                                        <span>
+                                          阿囉哈
+                                        </span>
+                                      </div>
+                                    </div>
+                                  </div>
+
+    <div class="logo">
+        <img src="decoration/logo.png">
+    </div>
+
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="main.js"></script>-->
+
+</body>
+</html>
